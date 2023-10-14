@@ -1,5 +1,7 @@
+import Header from '../../components/Header'
+
 function Main() {
-  return <h1>CML</h1>
+  return <Header title="Novo Pedido" />
 }
 
 export default Main
