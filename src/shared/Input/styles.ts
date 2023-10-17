@@ -19,4 +19,10 @@ export const Container = styled.div`
     padding: 8px 10px;
     font-size: 1rem;
   }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 `
